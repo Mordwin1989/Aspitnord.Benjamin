@@ -1,0 +1,66 @@
+body {
+	background: #eee;
+}
+
+#wrapper {
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 1000px;
+	background: white;
+}
+header{
+    padding-left: 3px;
+}
+nav{
+    background-color: palegreen;
+    padding: 3px 0;
+}
+nav a{
+    text-decoration: none;
+    color: #000000;
+    padding-left: 3px;
+    padding-right: 10px;
+}
+nav a:hover{
+    font-weight: bold;
+}
+h2{
+    color: red;
+}
+main{
+    float: left;
+    width: 50%;
+}
+main article{
+    margin: 2%;
+}
+#firstRow td{
+    font-weight: bold;
+}
+aside{
+    float: right;
+    width: 50%;
+}
+aside video, aside audio{
+    width: 96%;
+    margin: 2%;
+}
+#bottomFooter{
+    width: 100%;
+    text-align: center;
+    clear: both;
+    padding: 1% 0 1% 0;
+}
+
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+
